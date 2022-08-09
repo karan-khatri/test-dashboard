@@ -39,9 +39,9 @@
 }
 
 .online-indicator {
-  position: absolute;
   font-size: 0.75rem;
-  margin: 35px 0px;
+  right: 0px;
+  top: 20px;
 }
 
 .pause-end-button-container {

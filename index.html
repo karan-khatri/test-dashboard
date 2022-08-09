@@ -31,11 +31,11 @@
   <body>
     <div class="container-fluid min-vh-100">
       <div class="row">
-        <div class="col-2 col-md-1 bg-white text-center rounded-3 py-4 px-0">
+        <div class="col-2 col-md-1 bg-white text-center rounded-3 py-4 px-0 position-sticky vh-100">
           <div class="profile mb-5">
-            <a href="#">
+            <a href="#" class="position-relative">
               <img src="./assets/img/Avatar.png" alt="avatar" class="profile-avatar" width="48" height="48" />
-              <em class="bi bi-circle-fill text-success online-indicator"></em>
+              <em class="bi bi-circle-fill text-success online-indicator position-absolute"></em>
             </a>
           </div>
 
@@ -66,7 +66,7 @@
         <div class="col-10 col-md-7 mb-4">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-12 rounded-3 bg-white px-4 py-3 mt-3">
+              <div class="col-12 rounded-3 bg-white px-3 py-3 mt-3">
                 <div class="d-flex justify-content-between">
                   <h4 class="heading-text">Test <span class="text-primary"> - 01</span></h4>
                   <button class="btn btn-primary border-0"><em class="bi bi-box-arrow-right me-2"></em> Logout</button>
@@ -77,19 +77,19 @@
                   >Time Spent : &ensp; <span class="text-primary"> <em class="bi bi-clock"></em> 00:00:18</span></span
                 >
               </div>
-              <div class="col-12 bg-white rounded px-4 py-3">
+              <div class="col-12 bg-white rounded px-3 pt-3 pb-1">
                 <article class="row">
                   <div class="col-12 header py-3 border-bottom">
                     <h4 class="heading-text">Q.2 : Which of the following is an example of heart value ?</h4>
                   </div>
-                  <div class="col-12 body px-5 py-4 border-bottom body-text">
+                  <div class="col-12 body px-3 px-md-5 py-4 border-bottom body-text">
                     <ol>
                       <li>Mital Value</li>
                       <li>Tricusizel</li>
                       <li>Sismodel</li>
                     </ol>
                   </div>
-                  <div class="col-12 px-5 py-4 border-bottom body-text">
+                  <div class="col-12 px-4 px-md-5 py-4 border-bottom body-text">
                     <label for="answer1">
                       <input type="radio" name="mcq-options" id="answer1" value="A" />
                       <span id="A" class="customRadio">A</span>
@@ -115,9 +115,9 @@
                     </label>
                   </div>
 
-                  <div class="col-12 text-end px-5 py-4">
-                    <button class="btn btn-primary w-25 me-3 border-0">Complete</button>
-                    <button class="btn btn-primary bg-primary bg-opacity-10 text-primary w-25 border-0">Next</button>
+                  <div class="col-12 d-flex justify-content-start justify-content-md-end px-4 px-md-5 py-4">
+                    <button class="btn btn-primary me-3 border-0">Complete</button>
+                    <button class="btn btn-primary bg-primary bg-opacity-10 text-primary border-0">Next</button>
                   </div>
                 </article>
               </div>
